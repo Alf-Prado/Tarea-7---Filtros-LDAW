@@ -100,6 +100,8 @@ function App() {
   }
 
   const buscar = () => {
+    console.log("Se escogieron los siguientes filtros (JSON): ");
+    console.log(JSON.stringify(filter));
     console.log("Se escogieron los siguientes filtros: ");
     console.log("Forma: " + filter.forma);
     console.log("Color: " + filter.color);
