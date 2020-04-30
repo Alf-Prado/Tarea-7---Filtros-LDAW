@@ -155,11 +155,6 @@ function App() {
     width: "24%"
   }
 
-  const btnFilStyles = {
-    height: "100px"
-  }
-
-
   const buscarStyles = {
     backgroundColor: "#1724ab",
     color: "white" 
